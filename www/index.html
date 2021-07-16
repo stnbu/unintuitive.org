@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Mike Burr</title>
+  </head>
+  <body>
+    <div class="content">
+      <p>
+	Hello. My name is Mike Burr. I live in Santa Fe, New Mexico. I've been an "technology"
+	(computers) related engineer for my whole professional life.
+      </p>
+      <p>
+	To me "working on my home page" is like mowing the lawn when I was a kid. It went from
+	"oo-ee, this is fun!" to, "omg, I'm literally dying", in just a few short years. This
+	stuff has become lawn-mowing level drudgery for me. So just look forward to clear,
+	concise, meaningful content (<em>boring!</em>)
+      </p>
+      <p>I've drifted from thing to thing over the years, but I'm most interested in collaborating
+	or even being paid for involvement in</p>
+      <ul>
+	<li>Blockchain, primarily Ethereum, and pretty much anything else in that universe.</li>
+	<li>Programming. Lately it's been with Rust.</li>
+	<li>Gentech. I have almost zero formal "wet science" education, but I do have a pop-sci
+	  level of knowledge and some recent level of involvement.</li>
+      </ul>
+      <p>
+	Here is some portfolio-like information (in no particular order) that you may be interested in if judging suitability for employment (or similar).
+      </p>
+      <ul>
+	<li>Abandoned Addresses, an elaborate exercise in web3 (Ethereum) stuff, that may or may not be
+	  directly useful.</li>
+	<li>Various Rust learning and experimentation (please note that I am still learning Rust, just like you)
+	  <ul>
+	    <li>Added <code>serde</code> serialization support to <code>rust-bk-tree</code>: <a href="https://github.com/eugene-bulkin/rust-bk-tree/pull/12/files">the pull request</a></li>
+	    <li><a href="https://github.com/stnbu/sandbox/tree/master/wasm/web3minimal"> Web3 meets Rust Wasm</a> --
+	      I have been working for weeks on trying to get Rust "web3" code (that is, Ethereum dapp code) to
+	      successfully compile to wasm usable by a web browser. The idea is to replace things like
+	      <code>web3.js</code> and <code>ethers.js</code> with code written in Rust that compiles into wasm
+	      and is usable _in their stead_. It turns out to be a hard problem! This particular Rust package
+	      is very simple (although it took months of study): A minimal Rust wasm project that includes
+	      <code>rust-web3</code>. So, importantly, it doesn't DO anything. But is a good starting point
+	      for a Rust wasm+web3 project.</li>
+	    <li href="https://github.com/stnbu/sandbox/tree/master/rust/spelib"><a>spelib</a> -- a very simple
+	      spellchecking library that uses the above BKTree serialization to store the nearest-neighbor tree
+	      word tree generated from a word file. Processing the word file and creating the tree takes 1+ minute.
+	      deserializing the result on subsequent startup is sub-seconds in scale.</li>
+	    <li><a href="https://github.com/stnbu/sandbox/tree/master/rust/burger-chef">Burger Chef</a> -- a
+	      playground I created to experiment with the BKTree serialization problem. What is interesting in
+	      this package is that the short file you see in <code>src/main.rs</code> is after weeks of
+	      experimenting with serialization strategies (which is in the repo history) until I realized Rust
+	      has it handled! What a ride.</li>
+	    <li>A <a href="https://dapps.unintuitive.org/sandbox/wasm/julia/">Julia set explorer</a> -- I did
+	      not write this! But, it's amazing and I can explain the code to anyone who will listen. I read the
+	      whole wasm book (and more), and this simple thing really stood out for me. Wasm lets you get amazing
+	      performance out of client-side browser code.</li>
+	  </ul>
+	</li>
+      </ul>
+      <ul>
+      </ul>
+    </div>
+  </body>
+</html>
