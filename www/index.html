@@ -41,10 +41,20 @@
 	      I have been working for weeks on trying to get Rust "web3" code (that is, Ethereum dapp code) to
 	      successfully compile to wasm usable by a web browser. The idea is to replace things like
 	      <code>web3.js</code> and <code>ethers.js</code> with code written in Rust that compiles into wasm
-	      and is usable <em>in their stead</em>. It turns out to be a hard problem! This particular Rust package
+	      and is usable <em>in their stead</em>.
+	      <br /> <!-- yes I know this is against the lore -->
+	      <br />
+	      It turns out to be a hard problem! This particular Rust package
 	      is very simple (although it took months of study): A minimal Rust wasm project that includes
 	      <code>rust-web3</code>. So, importantly, it doesn't DO anything. But is a good starting point
-	      for a Rust wasm+web3 project. I've written plenty of original <a href="https://github.com/search?q=repo%3Astnbu%2Fsandbox+language%3ARust+wasm&type=Code">wasm code</a>, <a href="https://github.com/search?q=repo%3Astnbu%2Fsandbox+language%3ARust+ethers&type=Code">ethers</a>, and <a href="https://github.com/search?q=repo%3Astnbu%2Fsandbox+language%3ARust+web3&type=Code">web3</a> rust projects, this is just the minimal intersection of the two, roughly speaking.</li>
+	      for a Rust wasm+web3 project. 
+	      <br />
+	      <br />
+	      I've written plenty of original
+	      <a href="https://github.com/search?q=repo%3Astnbu%2Fsandbox+language%3ARust+wasm&type=Code">wasm code</a>,
+	      <a href="https://github.com/search?q=repo%3Astnbu%2Fsandbox+language%3ARust+ethers&type=Code">ethers</a>,
+	      and <a href="https://github.com/search?q=repo%3Astnbu%2Fsandbox+language%3ARust+web3&type=Code">web3</a>
+	      rust projects, this is just the minimal intersection of the two, roughly speaking.</li>
 	    <li><a href="https://github.com/stnbu/sandbox/tree/master/rust/spelib">spelib</a> -- a very simple
 	      spellchecking library that uses the above BKTree serialization to store the nearest-neighbor tree
 	      word tree generated from a word file. Processing the word file and creating the tree takes 1+ minute.
