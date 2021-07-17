@@ -6,5 +6,5 @@ git add * || true
 git commit -m 'deploy-bot'
 git push
 echo "sleeping for github..."
-sleep 10
+sleep 4
 ssh pu "cd /home/mburr/git/unintuitive.org && git pull"
