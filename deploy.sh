@@ -2,6 +2,8 @@
 
 # Minimal-effort deployment
 
+cd $(dirname $0)
+
 git add * || true
 git commit -m 'deploy-bot'
 git push
